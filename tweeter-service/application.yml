@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: tweeter-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: $TWEETER_DISCOVERY_URI_WITH_CREDENTIALS
