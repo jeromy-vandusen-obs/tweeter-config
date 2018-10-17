@@ -4,5 +4,5 @@ spring:
 
 eureka:
   client:
-    serviceUrl:
+    service-url:
       defaultZone: $TWEETER_DISCOVERY_URI_WITH_CREDENTIALS
